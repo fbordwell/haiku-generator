@@ -1,0 +1,12 @@
+/Users/fischer/Programming/rider/haiku-generator/bin/Debug/netcoreapp3.1/haiku-generator.deps.json
+/Users/fischer/Programming/rider/haiku-generator/bin/Debug/netcoreapp3.1/haiku-generator.runtimeconfig.json
+/Users/fischer/Programming/rider/haiku-generator/bin/Debug/netcoreapp3.1/haiku-generator.runtimeconfig.dev.json
+/Users/fischer/Programming/rider/haiku-generator/bin/Debug/netcoreapp3.1/haiku-generator.dll
+/Users/fischer/Programming/rider/haiku-generator/bin/Debug/netcoreapp3.1/haiku-generator.pdb
+/Users/fischer/Programming/rider/haiku-generator/obj/Debug/netcoreapp3.1/haiku-generator.csprojAssemblyReference.cache
+/Users/fischer/Programming/rider/haiku-generator/obj/Debug/netcoreapp3.1/haiku-generator.csproj.CoreCompileInputs.cache
+/Users/fischer/Programming/rider/haiku-generator/obj/Debug/netcoreapp3.1/haiku-generator.AssemblyInfoInputs.cache
+/Users/fischer/Programming/rider/haiku-generator/obj/Debug/netcoreapp3.1/haiku-generator.AssemblyInfo.cs
+/Users/fischer/Programming/rider/haiku-generator/obj/Debug/netcoreapp3.1/haiku-generator.dll
+/Users/fischer/Programming/rider/haiku-generator/obj/Debug/netcoreapp3.1/haiku-generator.pdb
+/Users/fischer/Programming/rider/haiku-generator/obj/Debug/netcoreapp3.1/haiku-generator.genruntimeconfig.cache
