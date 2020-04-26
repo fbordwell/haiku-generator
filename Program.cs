@@ -14,35 +14,33 @@ namespace haiku_generator
 
         public Stanza()
         {
-            this.Syllables = new int();
-            this.Words = new List<string>();
+            Syllables = new int();
+            Words = new List<string>();
         }
 
         public void AddWord(string word, int syllables)
         {
-            this.Syllables += syllables;
-            this.Words.Add(word);
+            Syllables += syllables;
+            Words.Add(word);
         }
 
         public void MakeStanza(Dictionary<string, string> dictionary, int count)
         {
             var rand = new Random();
 
-            while (this.Syllables < count)
+            while (Syllables < count)
             {
                 var (word, value) = dictionary.ElementAt(rand.Next(0, dictionary.Count));
                 var syllables = short.Parse(value);
 
-                if ((this.Syllables + syllables) <= count)
-                {
-                    this.AddWord(word, syllables);
-                }
+                if (Syllables + syllables <= count) 
+                    AddWord(word, syllables);
             }
         }
 
         public override string ToString()
         {
-            return string.Join(" ", this.Words.ToArray());
+            return string.Join(" ", Words.ToArray());
         }
     }
 
